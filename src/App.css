@@ -183,6 +183,20 @@
   padding-top: 50px;
 }
 
+.learn-option h4 {
+  font-weight: bold;
+  color: #36D05C;
+  margin-top: 20px;
+}
+
+.learn-option a {
+  color: #12ABF6;
+}
+
+.learn-option p {
+  margin-bottom: 0;
+}
+
 .App-footer {
   background-color: #36D05C;
   font-size: 16px;
