@@ -124,7 +124,8 @@ class CodingExp extends Component {
           </p>
           <h4>Computer Graphics</h4>
           <p>
-            <a href="">edX: Computer Graphics</a>:
+            <a href="https://www.edx.org/course/computer-graphics-2">
+            edX: Computer Graphics</a>:
             Learn more about how images are rendered on computer screens in this
             introductory course to computer graphics! Covers topics from
             raytracing to OpenGL.
