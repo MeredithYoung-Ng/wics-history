@@ -58,7 +58,7 @@ class CardYou extends Component {
             <Card.Img variant="top" src={ada_lovelace} />
             <Card.Body>
               <Card.Title className="card-wics-title">{this.state.name}</Card.Title>
-              <Card.Text>{this.state.year} -</Card.Text>
+              <Card.Text>{this.state.year}-</Card.Text>
               <div>
                 <Badge className="card-wics-badge" id="badge-left">
                   {this.state.field}

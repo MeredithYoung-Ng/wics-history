@@ -32,7 +32,7 @@ class List extends Component {
             <Card.Img variant="top" src={imgs[item.imgIndex]} />
             <Card.Body>
               <Card.Title className="card-wics-title">{item.name}</Card.Title>
-              <Card.Text>{item.year}</Card.Text>
+              <Card.Text>{item.year}-{item.death}</Card.Text>
               <div>
                 <Badge className="card-wics-badge" id="badge-left">
                   {item.field}
