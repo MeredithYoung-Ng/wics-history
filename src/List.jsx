@@ -20,6 +20,7 @@ const imgs = [
 ];
 
 class List extends Component {
+  /* Render each item in the filtered and sorted list */
   renderList() {
     if (this.props.items.length === 0) {
       return <li key="default">No people match your search.</li>

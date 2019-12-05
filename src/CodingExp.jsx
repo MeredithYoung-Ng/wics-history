@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import {Button, Form} from "react-bootstrap";
-// import Resources from "./Resources";
 
 class CodingExp extends Component {
   constructor(props) {
@@ -12,10 +11,12 @@ class CodingExp extends Component {
     };
   }
 
+  /* Update current radio button selection */
   updateRadio = event => {
     this.setState({checkedRadio: event.target.value});
   }
 
+  /* Update resource recommendations upon submit button clicked */
   onSubmitForm = event => {
     event.preventDefault();
 
@@ -40,6 +41,7 @@ class CodingExp extends Component {
     return radios;
   }
 
+  /* Render which choice is selected upon submit button being clicked */
   renderOption() {
     if (this.state.resourceOption === null) {
       return;

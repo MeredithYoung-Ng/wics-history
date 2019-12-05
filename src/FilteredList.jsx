@@ -69,6 +69,7 @@ class FilteredList extends Component {
       this.setState({sortDOB: event.target.checked});
     }
 
+    /* Sort by earliest date of birth */
     sortDOB = (a, b) => {
       if (this.state.sortDOB) {
         // Sort by date of birth

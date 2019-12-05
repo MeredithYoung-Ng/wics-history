@@ -14,6 +14,8 @@ class CardYou extends Component {
       };
     }
 
+  /* Called when submit button is clicked. Updates state with current form
+   * input. */
   onSubmitForm = event => {
     event.preventDefault();
 
@@ -29,12 +31,13 @@ class CardYou extends Component {
   render() {
     return (
       <div>
+        {/* Form to update card. Each group contains a label and its
+          * corresponding input textbox. */}
         <Form inline className="form" onSubmit={this.onSubmitForm}>
           <Form.Group className="formEntry">
             <Form.Label>Name</Form.Label>
             <Form.Control ref={(input) => this.formName = input} type="input" placeholder="You" />
           </Form.Group>
-          {/* TODO: make auto select of countries, years */}
           <Form.Group className="formEntry">
             <Form.Label>Birth Year</Form.Label>
             <Form.Control ref={(input) => this.formYear = input} type="input" placeholder="20XX" />
@@ -43,7 +46,6 @@ class CardYou extends Component {
             <Form.Label>Field</Form.Label>
             <Form.Control ref={(input) => this.formField = input} type="input" placeholder="Field" />
           </Form.Group>
-          {/* TODO: make auto select of countries, years */}
           <Form.Group className="formEntry">
             <Form.Label>Country</Form.Label>
             <Form.Control ref={(input) => this.formCountry = input} type="input" placeholder="Country" />
@@ -52,9 +54,9 @@ class CardYou extends Component {
             Join Us
           </Button>
         </Form>
+        {/* Card depicting "you" */}
         <div className="card-you">
           <Card className="card-wics" style={{ width: '18rem' }}>
-            {/* TODO: find generic picture*/}
             <Card.Img variant="top" src={you} />
             <Card.Body>
               <Card.Title className="card-wics-title">{this.state.name}</Card.Title>
