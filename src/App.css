@@ -185,7 +185,7 @@
 
 .App-footer {
   background-color: #36D05C;
-  font-size: calc(10px + vmin);
+  font-size: 16px;
   font-weight: bold;
   color: white;
 }
