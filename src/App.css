@@ -1,22 +1,195 @@
 .App {
+  background-color: white;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  font-family: 'Proxima Nova';
+  /* TODO: remove minified fonts, figure out how to include fonts... */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #36D05C;
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.App-logo {
+  max-height: 34px; /* height of HEADER */
+  height: auto;
+  width: auto;
+  padding: 5px;
+  /* TODO: design Bridging the gender gap in CS logo */
+}
+
+.App-header-links {
+  display: flex;
+  flex-flow: row wrap;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.Link-history, .Link-learn {
+  padding: 10px;
+}
+
+.Link-history a, .Link-learn a {
+  color: white;
+  text-decoration: none;
+}
+
+.Link-history a:hover, .Link-learn a:hover{
+  border-bottom:3px solid #12ABF6;
+}
+
+.GWC {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.App-body {
+  text-align: left;
+  padding: 10px 50px 10px 50px;
+}
+
+.App-body h1 {
+  color: #36D05C;
+  font-weight: bold;
+}
+
+.App-body ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 18rem 18rem 18rem;
+  justify-content: center;
+  grid-gap: 25px 50px;
+}
+
+.button-toolbar {
+  display: flex;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+#dropdown-button {
+  background-color: #12ABF6;
+  border-color: #12ABF6;
+}
+
+.dropdown button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 135px;
+  margin-right: 10px;
+}
+
+.checkbox {
+  margin-left: 10px;
+}
+
+.checkbox-dob {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.checkbox-dob input {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.card-list, .card-you {
+  text-align: center;
+}
+
+.card-wics {
+  background-color: #36D05C;
+  color: white;
+  /* Ensure uniform card size */
+  min-height: 517px;
+  font-size: 20px;
+}
+
+.card-wics-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card-wics badge {
+  background-color: #12ABF6;
+  border-color: #12ABF6;
+}
+
+.card-wics-badge {
+  background-color: #12ABF6;
+  border-color: #12ABF6;
+  font-weight: normal;
+  font-size: 20px;
+  padding: 10px 12px 10px 12px;
+}
+
+#badge-left {
+  margin-right: 15px;
+}
+
+.card-list img, .card-you img {
+  padding: 25px 15px 0px 15px;
+  object-fit: cover;
+}
+
+.card-you {
+  display: grid;
+  justify-content: center;
+}
+
+#future {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  color: #707070;
+}
+
+#future-you {
+  color: #12ABF6;
+}
+
+.form {
+  padding-bottom: 25px;
+}
+
+.formEntry {
+  padding-right: 25px;
+}
+
+.formEntry label {
+  padding-right: 10px;
+}
+
+.form button {
+  background-color: #12ABF6;
+  border-color: #12ABF6;
+}
+
+#learn {
+  padding-top: 50px;
+}
+
+.App-footer {
+  background-color: #36D05C;
+  font-size: calc(10px + vmin);
+  font-weight: bold;
+  color: white;
+}
+
+.App-footer p {
+  margin: 1em;
 }

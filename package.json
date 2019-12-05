@@ -2,10 +2,16 @@
   "name": "wics_history",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.9.0",
+    "node": "10.16.3"
+  },
   "dependencies": {
     "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "typescript": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
