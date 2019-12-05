@@ -4,8 +4,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 0 0 0;
-  font-family: 'Proxima Nova';
-  /* TODO: remove minified fonts, figure out how to include fonts... */
+  font-family: 'proxima-nova';
 }
 
 .App-header {
