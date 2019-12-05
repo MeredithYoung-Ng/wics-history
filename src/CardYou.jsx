@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Badge, Button, Card, Form} from "react-bootstrap";
-import ada_lovelace from "./imgs/ada_lovelace.jpg";
+import you from "./imgs/you.jpg";
 
 class CardYou extends Component {
   constructor(props) {
@@ -55,7 +55,7 @@ class CardYou extends Component {
         <div className="card-you">
           <Card className="card-wics" style={{ width: '18rem' }}>
             {/* TODO: find generic picture*/}
-            <Card.Img variant="top" src={ada_lovelace} />
+            <Card.Img variant="top" src={you} />
             <Card.Body>
               <Card.Title className="card-wics-title">{this.state.name}</Card.Title>
               <Card.Text>{this.state.year}-</Card.Text>

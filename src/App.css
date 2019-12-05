@@ -19,11 +19,9 @@
 }
 
 .App-logo {
-  max-height: 34px; /* height of HEADER */
+  max-height: 50px; /* height of HEADER */
   height: auto;
   width: auto;
-  padding: 5px;
-  /* TODO: design Bridging the gender gap in CS logo */
 }
 
 .App-header-links {
